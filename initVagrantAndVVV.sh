@@ -13,6 +13,7 @@ brew cask install vagrant
 vagrant plugin install vagrant-hostsupdater
 
 # Running the install script for VVV
+chmod +x initVVVJPCDev.sh
 ./initVVVJPCDev.sh
 
 # More info on making and editing VVV sites via conf file at:
