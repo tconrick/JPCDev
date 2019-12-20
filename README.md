@@ -1,7 +1,7 @@
-### *_Velcome, to the VVV-based JPC Development Repository_*
+### *_Velcome, to our VVV-based JPC Development Repository_* :wave:
 ---
 #### Instructions:
-To initialize the development environment, please first navigate to the JPCDev directory, where your git clone was made, and run the commands detailed below in the command line. Settle in, as this can take some time.
+To initialize the development environment, please first navigate to the JPCDev directory, where your git clone was made, and run the commands detailed below in the command line. You might want to settle in, as the first install caaan take some time :popcorn: :sleeping:
   
 #### For a full git, vagrant, and VVV install, use these commands while in /JPCDev:
 Run the following commands with your desired/existing git username and email:  
@@ -28,7 +28,7 @@ yes | rm -r VVV
 
 To view the test site go to: [jpcdev.test](jpcdev.test)
 
-To login to WordPress go to [jpcdev.test/wp-login.php](jpcdev.test/wp-login) using these default details:  
+To login to WordPress go to [jpcdev.test/wp-login.php](jpcdev.test/wp-login) using these default details: :ok_hand:
 >username: admin  
 >password: password
 
