@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 
-# This script assumes you have git and vagrant both installed.
+# Note: This script assumes you have git and vagrant both installed.
 
-
-# Installs plugin for VVV
-vagrant plugin install vagrant-hostsupdater
 # Clones the VVV parentDirectory to your JPC Devsite
 git clone -b master git://github.com/Varying-Vagrant-Vagrants/VVV.git
 # Overrides config file with JPCDev site pre-configured
