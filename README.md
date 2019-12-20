@@ -4,10 +4,10 @@
 To initialize the development environment, please first navigate to the JPCDev directory, where your git clone was made, and run the commands detailed below in the command line. You might want to settle in, as the first install caaan take some time :popcorn: :sleeping:
   
 #### For a full git, vagrant, and VVV install, use these commands while in /JPCDev:
-Run the following commands with your desired/existing git username and email:  
+Run the following commands with your desired/existing git username (email):  
 ```
 chmod +x initVagrantAndVVV.sh
-./initVagrantAndVVV.sh gitUsername gitEmail
+./initVagrantAndVVV.sh yourGitEmail@GoesHere.Yeet
 ```  
 
 ##### If you have git and vagrant, for a fresh VVV install with a new JPCDev site, use these commands while in /JPCDev:
