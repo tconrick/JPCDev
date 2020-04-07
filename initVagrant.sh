@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #   Username (your email) to be provided as script arguments, 
-#   for setting git username and email on first install
-USERNAME=${1?Error: please provide git username}
+#   for setting git username/email on first install
+USERNAME=${1?Error: please provide git username aka your email}
 git config --global user.name $USERNAME
 
 # This will install vagrant, set your git username and passwords, and run the install script.
