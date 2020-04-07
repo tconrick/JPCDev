@@ -8,6 +8,8 @@ git config --global user.name $USERNAME
 brew update
 brew cask install vagrant
 
+# Install ing a plugin for VVV
+vagrant plugin install vagrant-hostsupdater
 
 # Running the install script for VVV
 chmod +x initVVV.sh

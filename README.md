@@ -5,7 +5,7 @@ To initialize the development environment, please first navigate to the JPCDev d
 
 #### Step One: download and install git if you don't have it
   
-#### If you have git, and need to install vagrant before the VVV install, use these commands while in /JPCDev:
+##### If you have git, and need to install vagrant before the VVV install, use these commands while in /JPCDev:
 Run the following commands with your desired/existing git username (email):  
 ```
 chmod +x initVagrant.sh
