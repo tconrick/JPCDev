@@ -10,8 +10,8 @@ brew cask install vagrant
 
 
 # Running the install script for VVV
-chmod +x initJPCDev.sh
-./initJPCDev.sh
+chmod +x initVVV.sh
+./initVVV.sh
 
 # More info on making and editing VVV sites via conf file at:
 # https://www.howtoforge.com/setup-a-local-wordpress-development-environment-with-vagrant/
