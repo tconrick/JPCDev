@@ -43,30 +43,25 @@ sites:
         - query-monitor
     hosts:
       - two.wordpress.test
-  
-  jpcDev:
-    repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template
-    description: "A WordPress staging environment for JPC website"
-    # vm_dir: /srv/www/jpcDev
-    # local_dir: /JPCDev/VVV/www/jpcDev
-    branch: master
-    nginx_upstream: php
-    skip_provisioning: false
-    hosts:
-      - jpcDev.test
-    custom:
-      wp_type: subdirectory
-      db_name: jpcDB
-      site_title: jpcDev
 
   # The following commented out site configuration will create a standard WordPress
   # site in www/example-site/ available at http://mysite.test.
   # Remember, whitespace is significant! Tabs and spaces mean different things
-  #mysite:
+  # mysite:
   #  description: "My website"
   #  repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template.git
   #  hosts:
   #    - mysite.test
+
+  jpcDev:
+   description: "A WordPress staging environment for JPC website"
+   repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template.git
+   hosts:
+     - jpcDev.test 
+   custom:
+      wp_type: subdirectory
+      db_name: jpcDB
+      site_title: jpcDev
 
   # The wordpress-develop configuration is useful for contributing to WordPress Core.
   # It uses the built WP to serve the site
