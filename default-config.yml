@@ -58,6 +58,7 @@ sites:
    repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template.git
    hosts:
      - jpcDev.test 
+   allow_customfile: true
    custom:
       wp_type: subdirectory
       db_name: jpcDB

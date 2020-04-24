@@ -1,0 +1,3 @@
+# Customfile insert: Including localResources folder, outside VVV, in JPCDev.
+
+config.vm.synced_folder "/Users/edwardconrick/Development/Projects/JPCDev/syncedFolder", "/srv/www", create: true
