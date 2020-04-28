@@ -10,11 +10,9 @@ git clone -b master git://github.com/Varying-Vagrant-Vagrants/VVV.git /Users/edw
 cp -v default-config.yml vagrant-local/config/default-config.yml
 # So that VVV can load it's dependencies, then go through a fresh load.
 cd vagrant-local && (yes | vagrant up) 
-# This next section uses the Customfile to insert a line in the Vagrantfile, creating a localResources folder.
-cp -i ../Customfile ../vagrant-local/
-vagrant reload --provision
-# cd ..
-# ./migratePlugins.sh
+# Then it will call a script to move and unzip the wp-migrate-db plugins into the jpcDev directory
+cd ..
+./migratePlugins.sh
 
 
 # More info on making and editing VVV sites via conf file at:
