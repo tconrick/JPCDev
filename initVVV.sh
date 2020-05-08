@@ -5,7 +5,7 @@
 # Install ing a plugin for VVV
 vagrant plugin install vagrant-hostsupdater
 # Clones the VVV parentDirectory to your JPC Devsite
-git clone -b master git://github.com/Varying-Vagrant-Vagrants/VVV.git vagrant-local
+git clone https://github.com/tconrick/VVV.git vagrant-local
 # Overrides config file with JPCDev site pre-configured
 cp -v default-config.yml vagrant-local/config/default-config.yml
 # So that VVV can load it's dependencies, then go through a fresh load.
