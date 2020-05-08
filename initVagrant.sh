@@ -5,11 +5,9 @@ USERNAME=${1?Error: please provide git username aka your email}
 git config --global user.name $USERNAME
 
 # This will install vagrant, set your git username and passwords, and run the install script.
-brew update
 brew cask install vagrant
-
-# Install ing a plugin for VVV
-vagrant plugin install vagrant-hostsupdater
+chmod +x updateSetup.sh
+./updateSetup.sh
 
 # Running the install script for VVV
 chmod +x initVVV.sh
