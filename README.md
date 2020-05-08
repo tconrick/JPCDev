@@ -23,12 +23,15 @@ chmod +x initVVV.sh
 
 ##### To reset to a clean install of the VM, use these commands while in /JPCDev:
 ```
-yes | rm -r VVV
+chmod +x cleanUpReInstall.sh
+./cleanUpReInstall.sh
 ```
 
 ### To View and Login to Site:
 
-To view the test site go to: [jpcdev.test](jpcdev.test)
+Once the VVV install has finished (with hopefully no errors), go to [the VVV dashboard, vvv.test](vvv.test)
+
+To view our test site go to: [jpcdev.test](jpcdev.test)
 
 To login to WordPress go to [jpcdev.test/wp-login.php](jpcdev.test/wp-login) using these default details: :ok_hand:
 >username: admin  

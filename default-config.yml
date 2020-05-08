@@ -47,7 +47,7 @@ sites:
   # The following commented out site configuration will create a standard WordPress
   # site in www/example-site/ available at http://mysite.test.
   # Remember, whitespace is significant! Tabs and spaces mean different things
-  # mysite:
+  #mysite:
   #  description: "My website"
   #  repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template.git
   #  hosts:
@@ -59,7 +59,7 @@ sites:
    hosts:
      - jpcDev.test 
    custom:
-      wp_type: subdirectory
+      wp_type: single
       db_name: jpcDB
       site_title: jpcDev
 
