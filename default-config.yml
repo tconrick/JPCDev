@@ -59,7 +59,7 @@ sites:
    hosts:
      - jpcDev.test 
    custom:
-      wp_type: subdirectory
+      wp_type: single
       db_name: jpcDB
       site_title: jpcDev
 

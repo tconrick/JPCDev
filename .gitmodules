@@ -1,3 +1,6 @@
 [submodule "VVV"]
 	path = VVV
 	url = https://github.com/tconrick/VVV.git
+[submodule "vagrant-local"]
+	path = vagrant-local
+	url = https://github.com/tconrick/VVV.git
